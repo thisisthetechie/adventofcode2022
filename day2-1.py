@@ -3,13 +3,6 @@
 import aoc_core as aoc
 f = aoc.fd
 
-you = ""
-opponent = ""
-
-totalscore = 0
-
-
-
 score = {
     "A": {"X": 3, "Y": 6, "Z": 0},
     "B": {"X": 0, "Y": 3, "Z": 6},
@@ -22,7 +15,7 @@ bonus = {
     "Z": 3
 }
 
-
+totalscore = 0
 for x in f[0:]:
     gamescore = score[x.split(" ")[0]][x.split(" ")[1]] + bonus[x.split(" ")[1]]
     
