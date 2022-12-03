@@ -1,6 +1,7 @@
 import os.path
 import sys
 import pandas
+import re
 
 today = os.path.splitext(os.path.basename(sys.argv[0]).split('-')[0])[0]
 part  = os.path.splitext(os.path.basename(sys.argv[0]).split('-')[1])[0]
