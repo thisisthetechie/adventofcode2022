@@ -11,7 +11,7 @@ for x in f:
     hi1 = int(a[0].split("-")[1])
     lo2 = int(a[1].split("-")[0])
     hi2 = int(a[1].split("-")[1])
-    if (((lo1 >= lo2) ) | ( (hi2 <= hi1))):
+    if (((lo1 >= lo2) & (hi1 <= hi2)) | ((lo2 >= lo1) & (hi2 <= hi1))):
         totalcount += 1
 
 print("The total count is: " + str(totalcount))
