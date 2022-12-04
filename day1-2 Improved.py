@@ -1,5 +1,5 @@
 ## Advent of Code 2022
-## Day 1 Part 1
+## Day 1 Part 2 Improved
 import aoc_core as aoc
 import numpy, math
 f = aoc.fd
