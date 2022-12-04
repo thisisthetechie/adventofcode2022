@@ -1,8 +1,6 @@
 ## Advent of Code 2022
 ## Day 4 Part 1
 import aoc_core as aoc
-import re
-import math
 
 f = aoc.fd
 totalcount = 0
