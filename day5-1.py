@@ -1,8 +1,7 @@
 ## Advent of Code 2022
 ## Day 5 Part 1
 import aoc_core as aoc
-import numpy, re, math
-from collections import defaultdict
+import re
 
 f = aoc.fd
 
