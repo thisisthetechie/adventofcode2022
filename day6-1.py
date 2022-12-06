@@ -5,7 +5,6 @@ import re
 
 f = aoc.fd
 c = 4
-regex = re.compile("^(?!.*(.).*\1)[a-z]+$")
 for x in f:
     for i in range(c, len(x)):
         if re.search(r"^(?!.*(.).*\1)[a-z]+$",x[i-c:i]):
